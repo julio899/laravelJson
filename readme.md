@@ -2,9 +2,6 @@
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
 ## Entorno de Desarrollo
@@ -20,7 +17,7 @@
 - composer install.
 - colocar los datos de acceso para mysql.
     se encuentra en el archivo .env (esta en la raiz del proyecto)
-    ubicar el apartado de MySQL y colocar User y Pass
+    ubicar el apartado de MySQL y colocar  User, Pass, Name DataBase  
     
         DB_CONNECTION=mysql
         DB_HOST=127.0.0.1
@@ -30,6 +27,6 @@
         DB_PASSWORD=
 
 
-## License realizado bajo la plataforma [ Laravel framework ]
+## License realizado bajo la plataforma [ Laravel framework ] 
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
