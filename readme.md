@@ -25,7 +25,15 @@
         DB_DATABASE=wptestlaravel
         DB_USERNAME=root
         DB_PASSWORD=
+ - luego de colocar sus datos de conexion a la base de datos
+   por consola ir al directorio raiz del proyecto y ejecutar lo siguiente
+   que es para generar las tablas en la BD
+        
+        php artisan migrate:install && php artisan migrate:refresh
 
+- Ejecutar el servidor
+
+        php artisan serve
 
 ## License realizado bajo la plataforma [ Laravel framework ] 
 
