@@ -24,7 +24,7 @@ class Licencias extends Migration
             $table->timestamps();
         });
         // primer registro licencia demo
-        INSERT INTO `licencias` (`id`, `code`, `expire`, `confirmada`, `status`, `created_at`, `updated_at`) VALUES (NULL, 'c95212f10ee3c332ad7db40ad542e6691c6ff7b6', '2019-08-31', NULL, 'A', NULL, NULL);
+        // INSERT INTO `licencias` (`id`, `code`, `expire`, `confirmada`, `status`, `created_at`, `updated_at`) VALUES (NULL, 'c95212f10ee3c332ad7db40ad542e6691c6ff7b6', '2019-08-31', NULL, 'A', NULL, NULL);
     }
 
     /**
