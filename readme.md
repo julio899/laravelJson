@@ -15,6 +15,12 @@
 - descargar o clonar el proyecto 
     $ git clone git@github.com:julio899/laravelJson.git
 - composer install.
+- copiar y modificar con los datos de accesos para la base de datos
+
+        cp .env.example .env
+        # luego modificar el archivo .env
+        # con sus datos de acceso a mysql
+        
 - colocar los datos de acceso para mysql.
     se encuentra en el archivo .env (esta en la raiz del proyecto)
     ubicar el apartado de MySQL y colocar  User, Pass, Name DataBase  
