@@ -5,7 +5,7 @@
 </p>
 
 ## Entorno de Desarrollo
-
+- Linux laptop 4.15.0-29deepin-generic x86_64 GNU/Linux
 - PHP 7.2.4-1+b1.
 - Composer version 1.7.2
 
