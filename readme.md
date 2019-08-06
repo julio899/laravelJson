@@ -36,7 +36,8 @@
    que es para generar las tablas en la BD
    [IMPORTANTE AGREGAR LA PRIMERA LICENCIA PARA DEMO ]
         
-        php artisan migrate:install && php artisan migrate:refresh
+        php artisan migrate:install
+        php artisan migrate:refresh
         php artisan db:seed --class=DemoLic
 
 
