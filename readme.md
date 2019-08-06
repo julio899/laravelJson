@@ -34,8 +34,11 @@
  - luego de colocar sus datos de conexion a la base de datos
    por consola ir al directorio raiz del proyecto y ejecutar lo siguiente
    que es para generar las tablas en la BD
+   [IMPORTANTE AGREGAR LA PRIMERA LICENCIA PARA DEMO ]
         
         php artisan migrate:install && php artisan migrate:refresh
+        php artisan db:seed --class=DemoLic
+
 
 - Ejecutar el servidor
 
