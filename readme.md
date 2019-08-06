@@ -7,7 +7,6 @@
 ## Entorno de Desarrollo
 
 - PHP 7.2.4-1+b1.
-- [Powerful dependency injection container](https://laravel.com/docs/container).
 - Composer version 1.7.2
 
 
