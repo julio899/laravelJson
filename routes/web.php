@@ -20,7 +20,8 @@ Route::get('lic', 'JsonController@checkLicencia');
 Route::post('lic', 'JsonController@checkLicencia')->middleware('aceptcors');
 
 
-Route::post('login_check', 'JsonController@checkLogin')->middleware('aceptcors');
+Route::get('api/login_check', 'JsonController@checkLogin');
+Route::post('api/login_check', 'JsonController@checkLogin')->middleware('aceptcors');
 
 /*
 Route::group(['middleware' => 'aceptcors'], function()
