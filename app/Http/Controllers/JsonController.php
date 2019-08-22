@@ -24,7 +24,9 @@ class JsonController extends Controller
             'token'=>'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJpYXQiOjE1NjY0OTAyMzIsImV4cCI6MTU2NjQ5MzgzMiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sInVzZXJuYW1lIjoianVsaW84OTkifQ.BZ_E_FNtqkLFxC3DqJYGkxurPd2ms06jZHGKAakjyNRv-BIgoSYBkrUKbAp8VzEzHtCVpFwgO9W4hrFhNh-jl6XlTc_r53rO84e5iziBlKkiEEvS1CJZnLD1MxLazlKconhBnHlul1jivLZZTkuGWJklA9pfzqu2yEqobsMwMtyzTMsyEcm8jLCdm_EjRnN76EhVm7UGuN99FGtk_DoyZUIg8svKx1UPecbgKlalKIAiSWGkx0Sacb6zfOo5rpVsqxLDeoC2zMWbfnTI-n4zRCralsKFqTFrUf4BWaLf8d5K5RRetrjo7xWn5x4TCg8onyO60UnyVfpVwjPxtw3H2pB2wKOgyl2BWvguBcgC7jtvM-wYaY3EpwpWIw-VO_gqfxxoc0e72yjZ4T9v01AN6nFW8engGtyKfuMvikuKqW3mdVxmO_FBgRnIXekILJh-4psOsyUdENuYFoSU-P_tkJX0gTj3LLo14A9Lyr3Y4RsWHH3uzaEqa5whm-PzPV3RCw7zMBH-LNento0cS76mAnEsBavSMelwVP8EwViioBk-8zyvOkNyekOrRbWlIvUA4P_IxAsMUhXgUETDEfOlVIk3xfhylNXztLliFKumfBYGjiJ2gGryLggk7uj26qe-ZwIw3AJtXon9z1MgVCUa84_kVrsUEFqzvmTfKDePsc8'
         );
 
-        return $jsonArr;
+        $headers = apache_request_headers();
+        // return $jsonArr;
+        return $headers;
     }
 
     /**
