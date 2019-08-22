@@ -33,6 +33,7 @@ class AceptCors
             //The client-side application can set only headers allowed in Access-Control-Allow-Headers
             return response()->json('OK', 200, $headers);
         }
+
         $response = $next($request);
         foreach ($headers as $key => $value) {
             $response->header($key, $value);
